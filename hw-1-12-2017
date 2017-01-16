@@ -3,3 +3,7 @@ ABSOLUTE VS RELATIVE PATHS CORRECT ANSWERS:
 	7. cd ~/data/ .. this command will navigate up to home directory, then down to data and then back up to home directory again
 	8. cd this command alone navigates to home directory 
 	9. cd .. navigates up which would be the home directory in this case
+
+RELATIVE PATH RESOLUTION CORRECT ANSWER: 
+	4. original pnas_final pnas_sub
+		the command " ls ../backup" will navigate up to Users (..) and then down to backup (/backup) an will show the contents of  			it which are: original, pnas_final and pnas_sub
