@@ -17,3 +17,6 @@ ls READING COMPREHENSION CORRECT ANSWER:
 EXPLORING MORE ls ARGUMENT ANSWER:
 	the command "ls -l" would show more information than only the name of the contents, such as file size and time of its last 		modification in a long listing format. 
 	the command "ls -h" would print human readable sizes (e.g., 1K 234M 2G)
+
+LISTING RECURSIVELY AND BY TIME ANSWER:
+	the command "ls -R -t" would list the directories in  alphabetical order and in each of them, the contents would be listed by the 		time of last change.
