@@ -1,0 +1,5 @@
+ABSOLUTE VS RELATIVE PATHS CORRECT ANSWERS:
+	5. cd ~ is a shortcut for home directory 
+	7. cd ~/data/ .. this command will navigate up to home directory, then down to data and then back up to home directory again
+	8. cd this command alone navigates to home directory 
+	9. cd .. navigates up which would be the home directory in this case
