@@ -13,3 +13,7 @@ ls READING COMPREHENSION CORRECT ANSWER:
 	3. ls -r -F /Users/backup
 	4. choice 2 and 3 both correct 
 		the list the question asked for display is in the directory that we are in, so ls alone would show all the contents. the 			-r would list them in reverse order and -F adds / to the names. in choice 3 the path is explicitly shown again which is 		unnecessary but correct. 
+
+EXPLORING MORE ls ARGUMENT ANSWER:
+	the command "ls -l" would show more information than only the name of the contents, such as file size and time of its last 		modification in a long listing format. 
+	the command "ls -h" would print human readable sizes (e.g., 1K 234M 2G)
