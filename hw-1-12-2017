@@ -7,3 +7,9 @@ ABSOLUTE VS RELATIVE PATHS CORRECT ANSWERS:
 RELATIVE PATH RESOLUTION CORRECT ANSWER: 
 	4. original pnas_final pnas_sub
 		the command " ls ../backup" will navigate up to Users (..) and then down to backup (/backup) an will show the contents of  			it which are: original, pnas_final and pnas_sub
+
+ls READING COMPREHENSION CORRECT ANSWER:
+	2. ls -r -F
+	3. ls -r -F /Users/backup
+	4. choice 2 and 3 both correct 
+		the list the question asked for display is in the directory that we are in, so ls alone would show all the contents. the 			-r would list them in reverse order and -F adds / to the names. in choice 3 the path is explicitly shown again which is 		unnecessary but correct. 
