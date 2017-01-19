@@ -1,1 +1,637 @@
 :)
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  sudo rstudio
+   70  pwd
+   71  git config --global user.name "Roxana"
+   72  git config --global user.email "rnojoumi@ucla.edu
+   73  pwd
+   74  git config --global user.Roxana
+   75  pwd
+   76  git init
+   77  gedit README.txt
+   78  h
+   79  pwd
+   80  git add README.txt
+   81  cd Desktop
+   82  cd eeb-177
+   83  cd lab-work
+   84  git add README.txt
+   85  git commit -m "initial commit: adding README file" 
+   86  git config --global user.name "Roxana"
+   87  git config --global user.email "rnojoumi@ucla.edu"
+   88  git commit -m "initial commit: adding README file"
+   89  git log
+   90  git remote add origin https://github.com/rnojoumi/Roxana.git
+   91  git push -u origin master
+   92  git config --global credential.helper cache
+   93  git config --global credential.helper 'cache --timeout=3600'
+   94  cd eeb-177
+   95  cd lab-worl
+   96  cd lab-work
+   97  git add exercise-1/README.txt
+   98  git commit -m"README file" 
+   99  git push
+  100  git status
+  101  cd exercise-1
+  102  mkdir one-liner.txt
+  103  gedit one-liner.txt
+  104  rmkdir one-liner.txt
+  105  rmdir one-liner.txt
+  106  touch one-liner.txt
+  107  gedit one-liner.txt
+  108  git add one-liner.txt
+  109  git commit m-"one-liner"
+  110  git commit -m"one-liner"
+  111  git push
+  112  git add one-liner.txt
+  113  git commit -m"one-liner"
+  114  git push
+  115  pwd
+  116  gedit README.txt
+  117  git add README.txt
+  118  git commit -m"2nd edit"
+  119  git push
+  120  git log
+  121  pwd
+  122  cd Desktop
+  123  cd eeb-177
+  124  cd lab-work
+  125  cd exercise-1
+  126  git add screenshot-1
+  127  git commit -m"screenshot of repository's commit"
+  128  git push
+  129  pwd
+  130  cd Desktop
+  131  cd eeb-177
+  132  cd Desktop
+  133  cd home
+  134  cd eeb177-student
+  135  cd Desktop
+  136  cd eeb-177
+  137  cd Desktop
+  138  pwd
+  139  cd lab-work
+  140  git branch
+  141  git checkout -b dummy-branch 
+  142  git branch
+  143  cd exercise-1
+  144  touch dummy-file
+  145  cd lab-work
+  146  cd ..
+  147  git add dummy-file
+  148  cd exercise-1
+  149  cd ..
+  150  git add exercise-1/dummy-file 
+  151  git commit -m"dummy-file"
+  152  git push
+  153  git push --set-upstream origin dummy-branch
+  154  git log --decorate
+  155  cd Desktop
+  156  cd eeb-177
+  157  cd lab-work
+  158  cd exercise-1/
+  159  1s
+  160  git branch
+  161  git checkout master
+  162  git branch
+  163  1s
+  164  git checkout dummy-branch
+  165  git branch
+  166  git checkout master
+  167  git branch
+  168  git merge dummy-branch
+  169  1s
+  170  ls
+  171  git rm dummy-file
+  172  git commit 
+  173  cd Desktop
+  174  cd eeb-177/
+  175  cd lab-work/
+  176  git branch
+  177  git status
+  178  git
+  179  git diff 
+  180  git diff --staged
+  181  git commit -m "dummy" 
+  182  git push
+  183  ls
+  184  git log
+  185  git revert be1ad45bcb2bdf36ee7613599f75efd2dd1bc78e
+  186  git revert <be1ad45bcb2bdf36ee7613599f75efd2dd1bc78e>
+  187  git log
+  188  git status
+  189  cd Desktop
+  190  cd eeb-177/
+  191  cd lab-work/
+  192  git branch
+  193  git log
+  194  cd Desktop/
+  195  cd eeb-177/
+  196  cd lab-work/
+  197  git revert <be1ad45bcb2bdf36ee7613599f75efd2dd1bc78e>
+  198  git revert be1ad45bcb2bdf36ee7613599f75efd2dd1bc78e
+  199  cd Desktop/
+  200  cd eeb-177/
+  201  cd lab-work/
+  202  git branch
+  203  git push
+  204  git log
+  205  cd Desktop/
+  206  cd eeb-177/
+  207  ls
+  208  mkdir class-assignments
+  209  git add class-assignment
+  210  git add class-assignments
+  211  git commit -m"class-assignments"
+  212  git push
+  213  pwd
+  214  cd class-assignments
+  215  ls
+  216  pwd
+  217  git init
+  218  ls -a
+  219  git remote add origin https://github.com/rnojoumi/class-assignments.git
+  220  git push -u origin master
+  221  git branch
+  222  cd Desktop/
+  223  cd eeb-177/
+  224  cd class-assignments/
+  225  git branch
+  226  cd ../
+  227  git add class-assignments
+  228  git commit -m "class-assignments"
+  229  git push
+  230  cd class-assignments/
+  231  ls -a
+  232  git config --global user.name "rnojoumi"
+  233  git config --global user.email "rnojoumi@ucla.edu
+  234  pwd
+  235  cd Desktop/
+  236  cd eeb-177/
+  237  git add class-assignments
+  238  git commit -m "class-assignments"
+  239  git push
+  240  cd ../
+  241  cd eeb-177/
+  242  ls
+  243  rm -rf class-assignmets
+  244  mkdir class-assignments
+  245  cd class-assignments/
+  246  git init
+  247  git config --global user.name "class-assignments"
+  248  git config --global user.email "rnojoumi@ucla.edu"
+  249  cd ..
+  250  git add class-assignments
+  251  git commit -m "class-assignments"
+  252  git push
+  253  git config --global user.name rnojoumi
+  254  git config --global user.email rnojoumi@ucla.edu
+  255  git add class-assignments/
+  256  git commit -m "class-assignments"
+  257  git config --global user.email "rnojoumi@ucla.edu"
+  258  pwd
+  259  cd Desktop
+  260  cd eeb-177/
+  261  cd lab-work/
+  262  git init
+  263  ls
+  264  gedit README.txt
+  265  pwd
+  266  git add lab-work
+  267  cd ..
+  268  git add lab-work
+  269  git commit -m"lab-work committing self-practice"
+  270  git push
+  271  git remote add origin https://github.com/rnojoumi/Roxana
+  272  git push -u origin master
+  273  cd Desktop/
+  274  cd eeb-177/
+  275  cd lab-work/
+  276  git init
+  277  cd ..
+  278  git add lab-work
+  279  git commit -m "lab-work update self-practice"
+  280  git remote add origin https://github.com/rnojoumi/Roxana
+  281  git push -u origin master
+  282  git pull
+  283  pwd
+  284  cd lab-work/
+  285  cd exercise-1/
+  286  rm dummy-file 
+  287  push 
+  288  cd ..
+  289  git init
+  290  cd ..
+  291  git add lab-work/
+  292  git commit -m "update-selfpractice"
+  293  git remote add origin https://github.com/rnojoumi/Roxana
+  294  git push
+  295  git push -u origin master
+  296  git branch
+  297  git push --set-upstream origin master
+  298  git pull Roxana
+  299  cd Desktop/
+  300  cd eeb-177/
+  301  cd practice/
+  302  touch readme.txt
+  303  gedit readme.txt
+  304  cd ..
+  305  cd practice/
+  306  git init
+  307  cd ..
+  308  git add practice/
+  309  git commit -m "self-practice"
+  310  git remote add origin https://github.com/rnojoumi/Roxana
+  311  git push -u origin master
+  312  git push --help
+  313  git status
+  314  cd Desktop/
+  315  cd eeb-177/
+  316  git add practice/
+  317  git status
+  318  cd practice/
+  319  git add readme.txt
+  320  git status
+  321  cd ..
+  322  git commit -m "self-practice"
+  323  cd practice/
+  324  git add readme.txt
+  325  git status
+  326  git commit -m "self-practice"
+  327  git push
+  328  git push -u origin master
+  329  cd Desktop/
+  330  cd eeb-177/
+  331  cd practice/
+  332  git init
+  333  git add practice
+  334  cd ..
+  335  git add practice
+  336  git commit -m "self-practice"
+  337  cd practice/
+  338  git add readme.txt
+  339  git commit -m "self-practice"
+  340  git remote add origin https://github.com/rnojoumi/practice.git
+  341  git push -u origin master 
+  342  ls -a
+  343  git remote add origin https://github.com/rnojoumi/practice.git
+  344  git status
+  345  pwd
+  346  git add readme.txt
+  347  git commit -m "init commit readme"
+  348  git push
+  349  git branch
+  350  gedit readme.txt
+  351  git add readme.xtxt
+  352  git status
+  353  git add readme.txt
+  354  git commit -m "modified readme"
+  355  git push
+  356  git push --set -upstream origin master
+  357  git push -u origin master
+  358  git push origin master
+  359  git remote add origin https://github.com/rnojoumi/practice.git
+  360  rmdir practice
+  361  cd ../
+  362  rmdir practice
+  363  cd practice
+  364  rm readme.txt
+  365  ls -a
+  366  cd ../
+  367  rmdir practice
+  368  cd practice
+  369  rm .git
+  370  rmdir .git
+  371  cd ~
+  372  cd Desktop/eeb-177/
+  373  mkdir practices
+  374  cd practices/
+  375  touch readme.txt
+  376  gedit readme.txt
+  377  git init
+  378  git add readme.txt
+  379  git commit -m "init commit readme"
+  380  git remote add origin https://github.com/rnojoumi/practice.git
+  381  git push
+  382  git push -u origin master
+  383  cd Desktop/
+  384  cd eeb-177/
+  385  mkdir practice2
+  386  ls
+  387  cd practice
+  388  cd practice2
+  389  touch readme.txt
+  390  gedit readme.txt
+  391  git init
+  392  git add readme.txt
+  393  git commit -m "self-practice"
+  394  git remote add origin https://github.com/rnojoumi/Roxana.git
+  395  git push -u origin master
+  396  git remote add origin https://github.com/rnojoumi/practice.git
+  397  git push -u origin master
+  398  pwd
+  399  git add readme.txt
+  400  git commit -m "practice"
+  401  git remote add origin https://github.com/rnojoumi/Roxana.git
+  402  git push -u origin master
+  403  git add readme.txt
+  404  git commit -m "practice"
+  405  git remote add origin https://github.com/rnojoumi/practice.git
+  406  git push -u origin master
+  407  cd ..
+  408  rmdir practice2
+  409  cd practices/
+  410  git add readme2.txt
+  411  touch readme2.txt
+  412  gedit readme2.txt
+  413  git add readme2.txt
+  414  git commit -m "another practice"
+  415  git push -u origin master
+  416  cd Desktop/
+  417  cd eeb-177/
+  418  cd lab-work/
+  419  cd branch
+  420  git branch
+  421  git checkout -b dummy-branch2
+  422  git branch
+  423  cd exercise-1/
+  424  touch dummy-file2
+  425  gedit dummy-file2
+  426  cd ..
+  427  cd exercise-1/
+  428  git add dummy-file2
+  429  git commit -m "practice"
+  430  git push
+  431  git push --set-upstream origin dummy-branch2
+  432  git log
+  433  git rm dummy-file2
+  434  cd Desktop/
+  435  cd eeb-177/
+  436  cd lab-work/
+  437  cd exercise-1/
+  438  git rm dummy-file2
+  439  git log
+  440  git revert <66da478ca314ff69e3472d45de1d511a4c0225ba>
+  441  git log
+  442  git commit -m "removing dummy-file2"
+  443  cd Desktop/
+  444  cd eeb-177/
+  445  cd lab-work/
+  446  cd exercise-1/
+  447  git commit -m "removing dummy-file2"
+  448  git push
+  449  git log
+  450  git revert 08b8b85efe131df99acb2519b44cb59415338aa2
+  451  git revert <08b8b85efe131df99acb2519b44cb59415338aa2>
+  452  git log
+  453  cd Desktop/
+  454  cd eeb-177/
+  455  cd lab-work/
+  456  git log
+  457  cd Desktop/
+  458  cd eeb-177/
+  459  cd lab-work/
+  460  cd exercise-1/
+  461  git revert <08b8b85efe131df99acb2519b44cb59415338aa2>
+  462  git push
+  463  git revert 08b8b85efe131df99acb2519b44cb59415338aa2
+  464  cd Desktop/
+  465  cd eeb-177/
+  466  cd 01-my-favorite-animals/
+  467  git init
+  468  touch readme
+  469  gedit readme
+  470  touch links
+  471  gedit links
+  472  git commit -m "01-my-favorite-animals"
+  473  cd ..
+  474  git add 01-my-favorite-animals/
+  475  git commit -m "01-my-favorite-animals"
+  476  git remote add origin https://github.com/rnojoumi/01-my-favorite-animals.git
+  477  git push -u origin master
+  478  $
+  479  whoami
+  480  PS1='$'
+  481  pwd
+  482  ls -f
+  483  cd Desktop/
+  484  cd eeb-177/
+  485  ls -f
+  486  ls -F
+  487  pwd
+  488  cd Desktop/
+  489  cd
+  490  pwd
+  491  cd Desktop/
+  492  cd eeb-177/
+  493  cd -
+  494  pwd
+  495  cd ~
+  496  pwd
+  497  cd Desktop/
+  498  cd eeb-177/
+  499  cd class-assignments/
+  500  gedit readme.txt 
+  501  pwd
+  502  git push
+  503  git add readme.txt 
+  504  git commit -m "class-assignments"
+  505  git push
+  506  pwd
+  507  touch hw-1-12-2017
+  508  gedit hw-1-12-2017 
+  509  ls
+  510  git add hw-1-12-2017 
+  511  git commit -m "answer-1"
+  512  git push
+  513  ls ..
+  514  ls
+  515  ls ../eeb-177
+  516  ls ../
+  517  ls ../ eeb-177
+  518  pwd
+  519  gedit hw-1-12-2017 
+  520  ls
+  521  git commit -m "answer-2"
+  522  git add hw-1-12-2017 
+  523  git commit -m "answer-2"
+  524  git push
+  525  gedit hw-1-12-2017 
+  526  git add hw-1-12-2017 
+  527  git commit -m "answer-3"
+  528  git push
+  529  gedit hw-1-12-2017 
+  530  cd De
+  531  cd Desktop/
+  532  cd eeb-177/
+  533  ls
+  534  ls -l
+  535  pwd
+  536  cd class-assignments/
+  537  gedit hw-1-12-2017 
+  538  cd Desktop/
+  539  cd eeb-177/
+  540  cd class-assignments/
+  541  git add hw-1-12-2017 
+  542  git commit -m "answer-4"
+  543  git push
+  544  cd Desktop/
+  545  gedit
+  546  pwd
+  547  cd eeb-177/
+  548  cd class-assignments/
+  549  gedit classwork-tues-1-17 
+  550  mv classwork-tues-1-17.txt classwork-tues-1-17
+  551  ls
+  552  mv classwork-tues-1-17 classwork-tues-1-17.txt
+  553  ls
+  554  git add classwork-tues-1-17.txt 
+  555  git commit -m "1-17"
+  556  git push
+  557  git status
+  558  cd ..
+  559  cd CSB/
+  560  ls
+  561  cd unix/
+  562  cd installation/
+  563  cd Desktop/
+  564  mkdir exercise-2
+  565  cd exercise-2
+  566  touch readme.txt
+  567  gedit readme.txt 
+  568  git init readme.txt
+  569  git init
+  570  git remote add origin https://github.com/rnojoumi/week2-regex.git
+  571  git push -u origin master
+  572  git add readme.txt 
+  573  git commit -m "regular-expressions"
+  574  git push 
+  575  git push --set-upstream origin master
+  576  sudo apt-get update
+  577  sudo apt-get install gnome-screenshot
+  578  sudo reboot
+  579  cd Desktop/eeb-177/lab-work/exercise-2
+  580  git add--all
+  581  git add --all
+  582  cd ..
+  583  cd exercise-2
+  584  rm readme.txt 
+  585  cd ..
+  586  rmdir exercise-2
+  587  cd exercise-
+  588  cd exercise-2
+  589  ls -a
+  590  rm . .. .git
+  591  rmdir . .. .git
+  592  rmdir .git
+  593  cd Desktop/
+  594  cd eeb-177/class-assignments/
+  595  gedit classwork-Thursday-1-19.txt
+  596  git add classwork-Thursday-1-19.txt 
+  597  git commit -m "classwork-Thursday-1-19"
+  598  git push
+  599  cd~
+  600  cd ~
+  601  cd Desktop/
+  602  cd eeb-177/
+  603  cd CSB/
+  604  cd unix/
+  605  cd data/
+  606  gedit Marra2014_data.fasta 
+  607  cd Desktop/eeb-177/CSB/unix/sandbox/
+  608  ls
+  609  cd ..
+  610  cd sandbox/
+  611  gedit toremove.txt
+  612  cd ..
+  613  cd data/
+  614  gedit Marra2014_
+  615  git wc -l
+  616  wc -l
+  617  cd Desktop/eeb-177/CSB/unix/data/
+  618  wc -l Marra20114_data.fasta
+  619  wc -l Marra2014_data.fasta 
+  620  touch toremove.txt / ../sandbox/
+  621  touch toremove.txt/ ../sandbox/
+  622  touch toremove.txt ../sandbox/
+  623  ls -a
+  624  ls
+  625  cd ..
+  626  cd sandbox/
+  627  touch toremove.txt
+  628  cd ..
+  629  touch toremoveme.txt ~/Desktop/eeb-177/CSB/unix/sandbox/
+  630  touch toremoveme.txt/~/Des
+  631  touch ~/Desktop/eeb-177/CSB/unix/sandbox/toremoveme.txt
+  632  cd sandbox/
+  633  la
+  634  ls
+  635  history
+  636  history >> ~/Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt 
