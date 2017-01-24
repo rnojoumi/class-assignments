@@ -1,3 +1,73 @@
 :)/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
+  692  touch regex_hw.txt
+  693  cd Desktop/eeb-177/lab-work/exercise-2
+  694  git add regex_hw.txt 
+  695  git commit -m "regex_hw.txt"
+  696  git push
+  697  touch practice.txt
+  698  gedit practice.txt 
+  699  cd ..
+  700  cd class-assignments/
+  701  gedit classwork-Tuesday-1-24.txt
+  702  git add classwork-Tuesday-1-24.txt 
+  703  git commit -m "1-24"
+  704  git push
+  705  cd ..
+  706  cd CSB/unix/sandbox/
+  707  wget https://tinyurl.com/cep-taxa -0 cep-taxa.txt
+  708  wget http://tinyurl.com/cep-taxa -0 cep-taxa.txt
+  709  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  710  ls
+  711  ls cep-taxa.txt 
+  712  grep Orchidacea cep-taxa.txt 
+  713  grep -c Orchidacea cep-taxa.txt 
+  714  grep falcon
+  715  cd Desktop/eeb-177/CSB/unix/sandbox/
+  716  grep falcon cep-taxa.txt 
+  717  grep Falcon cep-taxa.txt 
+  718  grep -i falcon cep-taxa.txt 
+  719  grep -i macaws
+  720  cd Desktop/eeb-177/CSB/unix/sandbox/
+  721  grep -i macaws cep-taxa.txt 
+  722  grep -i -w ara cep-taxa.txt 
+  723  grep -B 3 Cebus cep-taxa.txt 
+  724* 
+  725  grep -n -i -w iguanas cep-taxa.txt 
+  726  grep -n -i -w iguana cep-taxa.txt 
+  727  grep -n -i -v -w ara cep-taxa.txt 
+  728  grep -c -n -i -v -w ara cep-taxa.txt 
+  729  find .*
+  730  find .* | wc -l
+  731  gedit ~/Desktop/eeb-177/lab-work/exercise-2/practice.txt 
+  732  find ../data/
+  733  find ../data/ | wc -l
+  734  find ../data/ -name "n30.txt"
+  735  find /home/eeb177-student//Desktop/eeb-177/CSB/unix/ -iname "*about*"
+  736  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  737  find ../ ../
+  738  cd ~
+  739  cd Desktop/eeb-177/class-assignments/
+  740  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ -iname "*classwork*"
+  741  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ -iname "*classwork*" >> classwork-Tuesday-1-24.txt 
+  742  git add classwork-Tuesday-1-24.txt 
+  743  git commit -m "find-classwork"
+  744  git push
+  745  cd ..
+  746  cd CSB/unix/data/
+  747  find ../ -maxdepth 1 -name "*.txt"
+  748  find ../data -maxdepth 1 -name "*.txt"
+  749  cd ..
+  750  cd sandbox/
+  751  touch permissions.txt
+  752  ls -l
+  753  history 50
+  754  history 100
+  755  history 200
+  756  history 57
+  757  cd ../ ..
+  758  cd ../ .. 
+  759  cd ..
+  760  cd class-assignments/
+  761  history 70 >> classwork-Tuesday-1-24.txt 
