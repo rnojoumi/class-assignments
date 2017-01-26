@@ -1,0 +1,80 @@
+  792  cd Desktop/
+  793  cd eeb-177/class-assignments/
+  794  touch classwork-Thursday-1-26.txt
+  795  gedit classwork-Thursday-1-26.txt 
+  796  git add classwork-Thursday-1-26.txt 
+  797  git commit -m "1-26'
+  798  git commit -m "1-26"
+  799  git push
+  800  ls -l
+  801  touch permissions.txt
+  802  ls -a
+  803  ls -l
+  804  chmod u=rwx permissions.txt 
+  805  ls -l
+  806  chmod u-x
+  807  chmod u-x permissions.txt 
+  808  ls -l
+  809  chmod u=wrx permissions.txt 
+  810  ls -l
+  811  gedit 
+  812  ls -l
+  813  dir.sh Untitled\ Document\ 1 
+  814  ls /usr/bin/
+  815  ls /bin/
+  816  $path
+  817  $PATH
+  818  cd
+  819  pwd
+  820  mkdir scripts
+  821  ls
+  822  cd scripts/
+  823  mv ~/Desktop/eeb-177/class-assignments/Untitled\ Document\ 1 .
+  824  ls
+  825  pwd
+  826  mv Untitled\ Document\ 1 dir.sh
+  827  ls
+  828  cd
+  829  gedit .bash_profile
+  830  ls -a
+  831  $PATH
+  832  cd scripts/
+  833  ls -l
+  834  chmod u+x dir.sh 
+  835  ls -l
+  836  cd 
+  837  cd Desktop/
+  838  ls
+  839  history 30
+  840  cd
+  841  ls
+  842  ls -a
+  843  gedit .profile 
+  844  sudo reboot
+  845  $PATH
+  846  cd Desktop/
+  847  dir.sh
+  848  cd ~/scripts/
+  849  dir.sh
+  850  cd
+  851  cd scripts/
+  852  gedit in-class-script.sh
+  853  ls -l
+  854  chmod u+x in-class-script.sh 
+  855  ls -l
+  856  cd ~/Desktop/eeb-177/lab-work/
+  857  ls
+  858  in-class-script.sh
+  859  cd ~/scripts/
+  860  git init
+  861  git remote add origin https://github.com/rnojoumi/scripts.git
+  862  git push -u origin master
+  863  git commit -m "class-scripts"
+  864  git add --all
+  865  git commit -m "class-scripts"
+  866  git push -u origin master
+  867  cd ~/Desktop/eeb-177/class-assignments/
+  868  ipyhton
+  869  ipython
+  870  history 100
+  871  history 80 >> ~/Desktop/eeb-177/class-assignments/classwork-Thursday-1-26.txt 
