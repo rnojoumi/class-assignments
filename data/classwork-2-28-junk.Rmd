@@ -1,0 +1,17 @@
+---
+title: "classwork-2-28-17"
+output: html_document
+---
+
+## loading my first data file
+
+load in the csv file I created. 
+```{r cats}
+cats <- read.csv(file= "data/feline-data.csv", as.is = T)
+cats$likes_string
+cats$weight+2
+str(cats)
+typeof(cats$coat)
+as.character(cats$coat) -> dd
+typeof(dd)
+```
