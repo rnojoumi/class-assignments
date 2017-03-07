@@ -1,0 +1,38 @@
+---
+title: "classwork-3-7"
+author: "Roxana Nojoumi"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+install.packages("paleotree")
+install.packages("paleobioDB")
+```
+```{r}
+library(paleotree)
+library(paleobioDB)
+#plot age uncertainty of occurence 
+data(graptPBDB)
+head(graptOccPBDB)
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank="species")
+head(occSpecies)
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank="genus")
+plotOccData(occSpecies, groupLabel = "Species")
+
+#plot number of species at time by converting occurence data to "timelist" format
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+
+#pdf(file="ddt.pdf")sends plots to this file
+#plot
+#taxicDivDisc(graptTimeSpecies)
+#dev.off()
+
+
+
+#PyRate
+
+
+```
